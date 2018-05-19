@@ -1,0 +1,107 @@
+body {
+	background-color: #222222;
+	margin: 0;
+	font-family: 'Cinzel', serif;
+}
+
+#heading, #menu {
+	text-align: center;
+	margin:0;
+	text-transform: uppercase;	
+}
+
+#inst {
+	display: inline-block;
+	width: 50%;
+	font-size: 2rem;
+	font-weight: bolder;
+}
+#timer {
+	display: inline-block;
+	width: 25%
+}
+#heading{
+	padding: 10px 0;
+	color: #ffffff;	
+	background-color: teal;
+}
+
+button {
+	border: none;
+	color: teal;
+	background: none;
+	text-transform: uppercase;
+	outline: none;
+	cursor: pointer;	
+	height: 100%;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: teal; 
+	color: #ffffff;
+}
+#menu {
+	color: steelblue;
+	background-color: #ffffff;
+	height: 30px;
+}
+
+#message{
+	color: maroon;
+	font-weight: bold;
+	width: 20%;
+	display: inline-block;
+}
+
+#colorDisplay{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#container {
+	max-width: 700px;
+	margin: auto;
+	padding: 2%;
+}
+
+.square {
+	cursor: pointer;
+	float: left;
+	border-radius: 10%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+.easy{	
+	margin: 0.5%;
+	width: 32%;
+	padding-bottom: 32%;
+}
+.medium{
+	margin: 0.3%;
+	width: 19.3%;
+	padding-bottom: 19.3%;
+}
+.hard{
+	margin: 0.2%;
+	width: 12%;
+	padding-bottom: 12%;
+}
+
+.selected {
+	background-color: teal;
+	color: #ffffff;
+}
+
+@media (max-width: 576px){
+	#inst{
+		font-size: 14px;
+	}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+	#inst{
+		font-size: 14px;
+	}
+}
